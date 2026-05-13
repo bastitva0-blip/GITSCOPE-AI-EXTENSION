@@ -1,0 +1,15 @@
+# Ignore environment and secret files
+backend/.env
+
+# Node and Python artifact ignores
+node_modules/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.env
+
+# Vite build output
+frontend/dist/
